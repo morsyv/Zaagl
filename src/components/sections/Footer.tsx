@@ -22,9 +22,7 @@ export function Footer({ d, locale }: { d: Dictionary; locale: Locale }) {
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,2fr)]">
           <div className="max-w-sm">
             <Link href={`/${locale}`} className="inline-flex items-center gap-2.5">
-              <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand text-[var(--brand-ink)]">
-                <Zaagl className="w-6 h-auto" />
-              </span>
+              <Zaagl className="w-9 h-auto shrink-0 text-logo" />
               <span className="text-[19px] font-bold tracking-tight">
                 {locale === 'ar' ? 'زاجل' : 'Zaagl'}
               </span>

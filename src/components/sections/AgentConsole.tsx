@@ -83,9 +83,7 @@ export function AgentConsole({ d }: { d: Dictionary }) {
         {/* chat */}
         <div className="flex flex-col rounded-xl border border-line bg-surface-2">
           <div className="flex items-center gap-2.5 border-b border-line px-3 py-2.5">
-            <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-brand text-[var(--brand-ink)]">
-              <Zaagl className="w-5 h-auto" />
-            </span>
+            <Zaagl className="w-8 h-auto shrink-0 text-logo" />
             <div className="leading-tight">
               <p className="text-[12px] font-semibold">{c.agentName}</p>
               <p className="flex items-center gap-1 text-[10px] text-ok">

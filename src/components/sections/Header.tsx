@@ -44,9 +44,7 @@ export function Header({ d, locale }: { d: Dictionary; locale: Locale }) {
       >
         <div className="shell flex h-16 items-center justify-between gap-4 md:h-20">
           <Link href={`/${locale}`} className="flex shrink-0 items-center gap-2.5">
-            <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand text-[var(--brand-ink)]">
-              <Zaagl className="w-6 h-auto" />
-            </span>
+            <Zaagl className="w-9 h-auto shrink-0 text-logo" />
             <span className="text-[19px] font-bold tracking-tight">
               {locale === 'ar' ? 'زاجل' : 'Zaagl'}
             </span>

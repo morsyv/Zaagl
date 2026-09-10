@@ -23,6 +23,7 @@ module.exports = {
           2: 'var(--brand-2)',
           ink: 'var(--brand-ink)',
         },
+        logo: 'var(--logo)',
         ok: 'var(--ok)',
         warn: 'var(--warn)',
         danger: 'var(--danger)',

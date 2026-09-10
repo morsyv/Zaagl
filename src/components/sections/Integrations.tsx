@@ -60,9 +60,7 @@ export function Integrations({ d }: { d: Dictionary }) {
 
             {/* centre */}
             <div className="relative z-10 grid h-[104px] w-[104px] place-items-center rounded-3xl border border-line bg-surface shadow-lift">
-              <span className="grid h-11 w-11 place-items-center rounded-2xl bg-brand text-[var(--brand-ink)]">
-                <Zaagl className="w-7 h-auto" />
-              </span>
+              <Zaagl className="w-11 h-auto text-logo" />
               <span className="mt-1.5 text-[12px] font-bold">{d.integrations.center}</span>
             </div>
 
