@@ -123,7 +123,6 @@ export const en: Dict = {
     body: 'Connect Zaagl to your documents by uploading them directly, or integrate sources like Google Drive and website URLs to build a precise knowledge base.',
     link: 'Learn more',
     nodes: ['PDF files', 'Google Drive', 'Website URLs', 'APIs', 'Webhooks', 'Event tracking'],
-    center: 'Zaagl',
   },
   pricing: {
     tag: 'Pricing',
