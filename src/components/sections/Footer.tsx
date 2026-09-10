@@ -23,7 +23,7 @@ export function Footer({ d, locale }: { d: Dictionary; locale: Locale }) {
           <div className="max-w-sm">
             <Link href={`/${locale}`} className="inline-flex items-center gap-2.5">
               <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand text-[var(--brand-ink)]">
-                <Zaagl className="h-6 w-6" />
+                <Zaagl className="w-6 h-auto" />
               </span>
               <span className="text-[19px] font-bold tracking-tight">
                 {locale === 'ar' ? 'زاجل' : 'Zaagl'}
