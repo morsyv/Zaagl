@@ -1,0 +1,23 @@
+:root {
+  /* Brand Primary (Orange) */
+  --zaagl-primary: #ff5e1e;
+  --zaagl-primary-hover: #ea4e10;
+  --zaagl-primary-light: #fff7ed;
+
+  /* Secondary / Brand Dark */
+  --zaagl-dark: #0f172a;
+  --zaagl-secondary: #2d3e50;
+
+  /* Neutrals */
+  --zaagl-bg: #f8fafc;
+  --zaagl-surface: #ffffff;
+  --zaagl-border: #e2e8f0;
+  --zaagl-text-muted: #64748b;
+  --zaagl-text-title: #0f172a;
+
+  /* Logistics Statuses */
+  --status-delivered: #10b981;
+  --status-pending: #f59e0b;
+  --status-returned: #ef4444;
+  --status-shipping: #3b82f6;
+}
